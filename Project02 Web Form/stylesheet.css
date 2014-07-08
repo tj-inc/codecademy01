@@ -1,0 +1,14 @@
+span {
+    font-family:Verdana,sans-serif;
+}
+
+input.text,input.submit{
+    width:10em;
+    height:3em;
+    border: 0.5em solid pink;
+    border-radius:1em;
+}
+
+input.submit:hover{
+    opacity:0.5;
+}
