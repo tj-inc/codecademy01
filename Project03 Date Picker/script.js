@@ -3,4 +3,10 @@ $(document).ready(function(){
         $('#departing').datepicker();
         $('#returning').datepicker();
     });
+    $('#submit').mouseenter(function(){
+        $(this).fadeTo('fast',0.5);
+    })
+    $('#submit').mouseleave(function(){
+        $(this).fadeTo('fast',1.0);
+    })
 })
