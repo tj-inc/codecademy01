@@ -1,0 +1,15 @@
+p {
+    font-family:Verdana,sans-serif;
+}
+
+input{
+    text-align:center;
+    width:10em;
+    height:3em;
+    border: 0.5em solid pink;
+    border-radius:1em;
+}
+
+#submit:hover{
+    opacity:0.5;
+}
