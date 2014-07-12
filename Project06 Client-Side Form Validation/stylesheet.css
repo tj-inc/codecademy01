@@ -1,0 +1,22 @@
+span {
+    font-family:'Microsoft YaHei',sans-serif;
+}
+span.text{
+    display:block;
+}
+input {
+    display: block;
+}
+#male,#female{
+    display:inline;
+}
+input.text, input.submit{
+    width:10em;
+    height:3em;
+    border: 0.5em solid pink;
+    border-radius:1em;
+}
+
+input.submit:hover{
+    opacity:0.5;
+}
